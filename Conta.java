@@ -4,7 +4,7 @@ public class Conta {
 
 	DecimalFormat df = new DecimalFormat("#,###.00");
 
-	private int cpf;
+	private String cpf;
 	private int banco;
 	private int agencia;
 	private int conta;
@@ -13,11 +13,11 @@ public class Conta {
 	private int tamanhoExtrato = 1;
 	private String[] extrato = new String[10];
 	
-	public Conta(int cpf, int senha) { // conta do usuário do caixa
+	public Conta(String cpf, int senha) { // conta do usuário do caixa
 		this.cpf = cpf;
 		this.senha = senha;
 	}
-	public Conta(int cpf) { // contas para transferências
+	public Conta(String cpf) { // contas para transferências
 		this.cpf = cpf;
 	}
 	
@@ -40,10 +40,10 @@ public class Conta {
 	public void setConta(int conta) {
 		this.conta = conta;
 	}
-	public int getCpf() {
+	public String getCpf() {
 		return cpf;
 	}
-	public void setCpf(int cpf) {
+	public void setCpf(String cpf) {
 		this.cpf = cpf;
 	}
 	public int getSenha() {

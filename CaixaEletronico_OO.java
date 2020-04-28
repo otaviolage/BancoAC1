@@ -6,7 +6,7 @@ public class CaixaEletronico_OO {
 	public static void main(String[] args) {
 		Scanner ler = new Scanner(System.in);
 		DecimalFormat df = new DecimalFormat("#,###.00");
-		Conta conta = new Conta(123456789, 123456);
+		Conta conta = new Conta("123.456.789-00", 1020304);
 
 		conta.setBanco(100);
 		conta.setAgencia(3003);
@@ -21,12 +21,12 @@ public class CaixaEletronico_OO {
 			System.out.println("==========================================\n");
 			
 			System.out.print("Digite o seu CPF: ");
-			int cpf = ler.nextInt();
+			String cpf = ler.next();
 
-			while (cpf != conta.getCpf()) { // testa o cpf
+			while (!cpf.equals(conta.getCpf())) { // testa o cpf
 				System.out.println("\nCPF INCORRETO");
 				System.out.print("Digite o seu CPF novamente: ");
-				cpf = ler.nextInt();
+				cpf = ler.next();
 			}
 
 			System.out.print("Senha: ");
@@ -96,7 +96,7 @@ public class CaixaEletronico_OO {
 					System.out.print("Digite o valor deseja transferir: ");
 					double valorTransferencia = ler.nextDouble();
 					System.out.print("Digite o CPF do destinatário: ");
-					int cpfDestinatario = ler.nextInt();
+					String cpfDestinatario = ler.next();
 					Conta contaDestino = new Conta(cpfDestinatario);
 					System.out.print("Digite o número da conta: ");
 					int numeroContaDestino = ler.nextInt();
