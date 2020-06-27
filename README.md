@@ -32,7 +32,7 @@ transferências em ordem cronológica.
 CAIXA ELETRÔNICO DO BANCO DO OTÁVIO
 ==========================================
 
-Digite o seu CPF: 123.456
+Digite o seu CPF: <font color="blue"> 123.456 </font>
 
 CPF INCORRETO
 Digite o seu CPF novamente: 123.456.789-00
