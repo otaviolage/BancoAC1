@@ -25,3 +25,139 @@ transferências em ordem cronológica.
     <img alt="Logo" src="https://ik.imagekit.io/otaviolage/BancoAC1_Fluxograma_XiYfRgRJh.PNG" />
     <br>
 </h1>
+
+# Exemplo de Resultado
+```bash
+==========================================
+CAIXA ELETRÔNICO DO BANCO DO OTÁVIO
+==========================================
+
+Digite o seu CPF: 123.456
+
+CPF INCORRETO
+Digite o seu CPF novamente: 123.456.789-00
+Senha: 123
+
+SENHA INCORRETA
+Digite novamente: 1020304
+
+==========================================
+
+Bem-vindo Cliente!
+Banco: 100
+Ag: 3003
+Conta: 1015582
+
+==========================================
+
+Digite 1 para visualizar o saldo
+Digite 2 para depósitos
+Digite 3 para saques
+Digite 4 para transferências
+Digite 5 para extrato
+Digite 0 para sair
+Digite a operacao que deseja realizar: 2
+
+==========================================
+
+Digite o valor que deseja depositar: 100
+
+==========================================
+Deseja realizar uma nova operação?
+Digite [sim] para realizar
+Digite [não] para reiniciar
+Digite a senha de desligamento para finalizar
+==========================================
+- sim
+
+==========================================
+
+Digite 1 para visualizar o saldo
+Digite 2 para depósitos
+Digite 3 para saques
+Digite 4 para transferências
+Digite 5 para extrato
+Digite 0 para sair
+Digite a operacao que deseja realizar: 3
+
+==========================================
+
+Digite o valor deseja sacar: 300
+
+==========================================
+Deseja realizar uma nova operação?
+Digite [sim] para realizar
+Digite [não] para reiniciar
+Digite a senha de desligamento para finalizar
+==========================================
+- sim
+
+==========================================
+
+Digite 1 para visualizar o saldo
+Digite 2 para depósitos
+Digite 3 para saques
+Digite 4 para transferências
+Digite 5 para extrato
+Digite 0 para sair
+Digite a operacao que deseja realizar: 4
+
+==========================================
+
+Digite o valor deseja transferir: 250
+Digite o CPF do destinatário: 123.456.790-00
+Digite o número da conta: 1234
+Agencia: 567890
+Número do Banco: 300
+
+==========================================
+
+Comprovante: 
+Banco: 300
+Ag: 567890
+Conta: 1234
+Valor Transferido: R$250,00
+
+==========================================
+
+
+==========================================
+Deseja realizar uma nova operação?
+Digite [sim] para realizar
+Digite [não] para reiniciar
+Digite a senha de desligamento para finalizar
+==========================================
+- sim
+
+==========================================
+
+Digite 1 para visualizar o saldo
+Digite 2 para depósitos
+Digite 3 para saques
+Digite 4 para transferências
+Digite 5 para extrato
+Digite 0 para sair
+Digite a operacao que deseja realizar: 5
+
+==========================================
+
+
+==========================================
+
+Extrato da conta 1015582:
+
+Saldo inicial: R$ 1.000,00
+1.depósito: 100.0
+2.saque: -300.0
+3.transferência: -250.0
+Saldo atual: R$550,00
+
+==========================================
+Deseja realizar uma nova operação?
+Digite [sim] para realizar
+Digite [não] para reiniciar
+Digite a senha de desligamento para finalizar
+==========================================
+- 1234
+Máquina desligando...
+```
