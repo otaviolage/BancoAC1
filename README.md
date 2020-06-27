@@ -27,12 +27,12 @@ transferências em ordem cronológica.
 </h1>
 
 # Exemplo de Resultado
-```bash
+```java
 ==========================================
 CAIXA ELETRÔNICO DO BANCO DO OTÁVIO
 ==========================================
 
-Digite o seu CPF: <font color="blue"> 123.456 </font>
+Digite o seu CPF: 123.456
 
 CPF INCORRETO
 Digite o seu CPF novamente: 123.456.789-00
