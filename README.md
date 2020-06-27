@@ -2,12 +2,12 @@
 Trabalho de Construção de Algoritmos - Facens S1/2020
 
 # Proposta
-Nesta atividade você deverá construir um programa na linguagem JAVA tendo como base o fluxograma
+<p>Nesta atividade você deverá construir um programa na linguagem JAVA tendo como base o fluxograma
 abaixo demonstrado.
-Observações:
-  Considere Início com uma tela de boas-vindas ao usuário.
-  Considere o CPF como sendo: “123.456.789-00”.
-  Considere a Senha como sendo: 01020304.
+<p>Observações:
+<p>  Considere Início com uma tela de boas-vindas ao usuário.
+<p>  Considere o CPF como sendo: “123.456.789-00”.
+<p>  Considere a Senha como sendo: 01020304.
   Considere o Saldo inicial como sendo: R$1.000,00.
   Considere o seguinte Menu:
     1 – Saldo (deverá exibir o saldo atual)
